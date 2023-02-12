@@ -1,8 +1,8 @@
-# Leon Agency
+# Kasper Template
 
 ## Table of contents
 
-- [Leon Agency](#leon-agency)
+- [Kasper Template](#kasper-template)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [Screenshot](#screenshot)
@@ -13,11 +13,11 @@
 
 ### Screenshot
 
-![My solution](/screenshot.jpg)
+![My solution](/screenshot.png)
 
 ### Links
 
-- Live Site URL: [View Live](https://leon-agency-zahouani.netlify.app/)
+- Live Site URL: [View Live](https://kasper-template-zahouani.netlify.app/)
 
 ## Built with
 
