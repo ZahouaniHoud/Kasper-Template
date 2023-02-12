@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Kasper</title>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link href="/css/fontawesome.min.css" rel="stylesheet" />
+		<link href="/css/brands.min.css" rel="stylesheet" />
+		<link href="/css/solid.min.css" rel="stylesheet" />
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="/css/main.css" />
+
+		<!-- Javascript -->
+		<script src="/main.js" defer></script>
+	</head>
+	<body>
+		<!-- Header Start -->
+
+		<header class="primary-header">
+			<div class="container flex">
+				<div>
+					<img src="/assets/logo.png" alt="" class="logo" />
+				</div>
+
+				<button
+					class="mobile-nav-toggle"
+					aria-controls="primary-navigation"
+				>
+					<span class="visually-hidden" aria-expanded="false"
+						>Menu</span
+					>
+				</button>
+
+				<div class="navigation-wrapper grid" data-visible="false">
+					<nav class="nav">
+						<ul
+							id="primary-navigation"
+							class="primary-navigation flex underline-indicators"
+						>
+							<li class="active">
+								<a href="#home" class="nav__link">Home</a>
+							</li>
+							<li>
+								<a href="#services" class="nav__link"
+									>Services</a
+								>
+							</li>
+							<li>
+								<a href="#portfolio" class="nav__link"
+									>Portfolio</a
+								>
+							</li>
+							<li>
+								<a href="#about" class="nav__link">About</a>
+							</li>
+							<li>
+								<a href="#pricing" class="nav__link">Pricing</a>
+							</li>
+							<li>
+								<a href="#contact" class="nav__link">Contact</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="search flex">
+						<div
+							role="separator
+						"
+						></div>
+						<form action="">
+							<input type="text" name="" id="" />
+							<button type="submit">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Header End -->
+
+		<main class="main flow">
+			<!-- Intro Section Start -->
+
+			<section id="home" class="home grid">
+				<div class="test"></div>
+				<div class="intro">
+					<div class="intro__text">
+						<div class="wrapper">
+							<h2 class="intro__title">
+								Hello world! <br />
+								We are Kasper, we make art.
+							</h2>
+							<p class="intro__desc">
+								Curabitur arcu erat, accumsan id imperdiet et,
+								porttitor at sem. Mauris blandit aliquet elit,
+								eget tincidunt nibh pulvinar a. Curabitur
+								aliquet quam. Accumsan id imperdiet et,
+								porttitor at sem. Mauris blandit aliquet elit,
+								eget tincidunt.
+							</p>
+						</div>
+					</div>
+
+					<div class="side-slider flex">
+						<button>
+							<i class="fa-solid fa-angle-left"></i>
+						</button>
+						<button>
+							<i class="fa-solid fa-angle-right"></i>
+						</button>
+					</div>
+
+					<div class="slider-dots">
+						<button></button>
+						<button class="active"></button>
+						<button></button>
+					</div>
+				</div>
+			</section>
+
+			<!-- Intro Section End -->
+
+			<!-- Services Section Start -->
+
+			<section id="services" class="services">
+				<div class="container">
+					<div class="section__intro">
+						<h2 class="section__title">Services</h2>
+						<p>
+							Curabitur arcu erat, accumsan id imperdiet et,
+							porttitor at sem. Mauris blandit aliquet elit, eget
+							tincidunt.
+						</p>
+					</div>
+
+					<div class="services__info grid-container">
+						<div class="col">
+							<div class="row">
+								<i class="fa-solid fa-tv"></i>
+								<div>
+									<h3>Vorem amet intuitive</h3>
+									<p>
+										Curabitur arcu erat, accumsan id
+										imperdiet et, porttitor at sem. Mauris
+										blandit aliquet elit, eget tincidunt
+										nibh pulvinar a. Curabitur aliquet quam.
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<i class="fa-solid fa-pen-ruler"></i>
+								<div>
+									<h3>Vorem amet intuitive</h3>
+									<p>
+										Curabitur arcu erat, accumsan id
+										imperdiet et, porttitor at sem. Mauris
+										blandit aliquet elit, eget tincidunt
+										nibh pulvinar a. Curabitur aliquet quam.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="row">
+								<i class="fa-solid fa-gear"></i>
+								<div>
+									<h3>Vorem amet intuitive</h3>
+									<p>
+										Curabitur arcu erat, accumsan id
+										imperdiet et, porttitor at sem. Mauris
+										blandit aliquet elit, eget tincidunt
+										nibh pulvinar a. Curabitur aliquet quam.
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<i class="fa-solid fa-camera"></i>
+								<div>
+									<h3>Vorem amet intuitive</h3>
+									<p>
+										Curabitur arcu erat, accumsan id
+										imperdiet et, porttitor at sem. Mauris
+										blandit aliquet elit, eget tincidunt
+										nibh pulvinar a. Curabitur aliquet quam.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="services__feature grid">
+					<div class="col feature__img">
+						<img src="/assets/mobile.png" alt="" />
+					</div>
+
+					<div class="col feature__text">
+						<h3 class="feature__title">
+							Our designs comes with...
+						</h3>
+						<ul class="feature__list flow">
+							<li class="feature__item">Responsive Design</li>
+							<li class="feature__item">
+								Modern And Clean Design
+							</li>
+							<li class="feature__item">Clean Code</li>
+							<li class="feature__item">Browser Friendly</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<!-- Services Section End -->
+
+			<!-- Portfolio Start -->
+
+			<section id="portfolio" class="portfolio">
+				<div class="container">
+					<div class="section__intro">
+						<h2 class="section__title">Portfolio</h2>
+						<p>
+							Curabitur arcu erat, accumsan id imperdiet et,
+							porttitor at sem. Mauris blandit aliquet elit, eget
+							tincidunt.
+						</p>
+					</div>
+				</div>
+
+				<div class="portfolio__gallery">
+					<div class="gallery__tabs flex">
+						<button class="gallery__btn active" type="button">
+							All
+						</button>
+						<button class="gallery__btn" type="button">App</button>
+						<button class="gallery__btn" type="button">
+							Photography
+						</button>
+						<button class="gallery__btn" type="button">Web</button>
+						<button class="gallery__btn" type="button">
+							Print
+						</button>
+					</div>
+					<div class="gallery grid">
+						<article>
+							<button class="zoom-btn" type="button">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+							<img src="/assets/portfolio/p1.jpg" alt="" />
+							<div class="gallery__info">
+								<h3>Awesome Image</h3>
+								<p>Photography</p>
+							</div>
+						</article>
+
+						<article>
+							<button class="zoom-btn" type="button">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+							<img src="/assets/portfolio/p2.jpg" alt="" />
+							<div class="gallery__info">
+								<h3>Awesome Image</h3>
+								<p>Photography</p>
+							</div>
+						</article>
+
+						<article>
+							<button class="zoom-btn" type="button">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+							<img src="/assets/portfolio/p3.jpg" alt="" />
+							<div class="gallery__info">
+								<h3>Awesome Image</h3>
+								<p>Photography</p>
+							</div>
+						</article>
+
+						<article>
+							<button class="zoom-btn" type="button">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+							<img src="/assets/portfolio/p4.jpg" alt="" />
+							<div class="gallery__info">
+								<h3>Awesome Image</h3>
+								<p>Photography</p>
+							</div>
+						</article>
+
+						<article>
+							<button class="zoom-btn" type="button">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+							<img src="/assets/portfolio/p5.jpg" alt="" />
+							<div class="gallery__info">
+								<h3>Awesome Image</h3>
+								<p>Photography</p>
+							</div>
+						</article>
+
+						<article>
+							<button class="zoom-btn" type="button">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+							<img src="/assets/portfolio/p6.jpg" alt="" />
+							<div class="gallery__info">
+								<h3>Awesome Image</h3>
+								<p>Photography</p>
+							</div>
+						</article>
+
+						<article>
+							<button class="zoom-btn" type="button">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+							<img src="/assets/portfolio/p7.jpg" alt="" />
+							<div class="gallery__info">
+								<h3>Awesome Image</h3>
+								<p>Photography</p>
+							</div>
+						</article>
+
+						<article>
+							<button class="zoom-btn" type="button">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+							<img src="/assets/portfolio/p8.jpg" alt="" />
+							<div class="gallery__info">
+								<h3>Awesome Image</h3>
+								<p>Photography</p>
+							</div>
+						</article>
+					</div>
+					<div class="gallery__more">
+						<a href="#">More</a>
+					</div>
+				</div>
+
+				<div class="portfolio__video">
+					<div class="video">
+						<video
+							src="/assets/video/Storm.mp4"
+							autoplay
+							muted="muted"
+							loop
+						></video>
+					</div>
+					<div class="video__info">
+						<h3>Super awesome video here</h3>
+						<p>Its all you need</p>
+						<a href="">See more</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- Portfolio End -->
+
+			<!-- About Start -->
+
+			<section id="about" class="about">
+				<div class="container">
+					<div class="section__intro">
+						<h2 class="section__title">About us</h2>
+						<p>
+							Curabitur arcu erat, accumsan id imperdiet et,
+							porttitor at sem. Mauris blandit aliquet elit, eget
+							tincidunt.
+						</p>
+					</div>
+				</div>
+
+				<div class="intro-img">
+					<img src="/assets/about.png" alt="" />
+				</div>
+
+				<div class="about__statistics">
+					<div class="container">
+						<div class="about__number grid">
+							<div>
+								<div class="icon">
+									<i class="fa-solid fa-mug-hot"></i>
+								</div>
+								<p class="number">1,263</p>
+								<p class="txt">Coffee Drinks</p>
+							</div>
+							<div>
+								<div class="icon">
+									<i class="fa-solid fa-folder"></i>
+								</div>
+								<p class="number">256</p>
+								<p class="txt">Completed Projects</p>
+							</div>
+							<div>
+								<div class="icon">
+									<i
+										class="fa-solid fa-envelope-circle-check"
+									></i>
+								</div>
+								<p class="number">1,743</p>
+								<p class="txt">Mail Sent</p>
+							</div>
+							<div>
+								<div class="icon">
+									<i class="fa-solid fa-award"></i>
+								</div>
+								<p class="number">17</p>
+								<p class="txt">Awards Received</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="about__content container grid-container">
+					<div class="col clients">
+						<div class="row txt">
+							<h3>Testimonials</h3>
+							<p>
+								Curabitur arcu erat, accumsan id imperdiet et,
+								porttitor at sem. Mauris blandit aliquet elit,
+								eget tincidunt.
+							</p>
+						</div>
+						<div class="row client">
+							<div class="img">
+								<img src="/assets/client/c1.jpg" alt="" />
+							</div>
+
+							<div class="client__info">
+								<p>
+									Curabitur arcu erat, accumsan id imperdiet
+									et, porttitor at sem. Mauris blandit aliquet
+									elit, eget tincidunt.
+								</p>
+								<span>John Doe,CEO</span>
+							</div>
+						</div>
+						<div class="row client">
+							<div class="img">
+								<img src="/assets/client/c2.jpg" alt="" />
+							</div>
+							<div class="client__info">
+								<p>
+									Curabitur arcu erat, accumsan id imperdiet
+									et, porttitor at sem. Mauris blandit aliquet
+									elit, eget tincidunt.
+								</p>
+								<span>John Doe,CEO</span>
+							</div>
+						</div>
+
+						<div class="client__slider flex">
+							<button></button>
+							<button></button>
+							<button></button>
+						</div>
+					</div>
+					<div class="col skills">
+						<div class="txt">
+							<h3>Our skills</h3>
+							<p>
+								Curabitur arcu erat, accumsan id imperdiet et,
+								porttitor at sem. Mauris blandit aliquet elit,
+								eget tincidunt.
+							</p>
+						</div>
+
+						<div class="skills__info grid">
+							<div class="holder">
+								<h4>Abode</h4>
+								<div class="prog">
+									<span data-progress="95%"></span>
+								</div>
+							</div>
+							<div class="holder">
+								<h4>Html &amp; Css</h4>
+								<div class="prog">
+									<span data-progress="93%"></span>
+								</div>
+							</div>
+							<div class="holder">
+								<h4>Javascript</h4>
+								<div class="prog">
+									<span data-progress="85%"></span>
+								</div>
+							</div>
+							<div class="holder">
+								<h4>Php</h4>
+								<div class="prog">
+									<span data-progress="87%"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="about__quote">
+					<divs class="container grid">
+						<q
+							>Accumsan id curabitur et portitor mauris blandit
+							dolor lorem some est our donec stin lorios</q
+						>
+						<span>John Doe</span>
+					</divs>
+				</div>
+			</section>
+
+			<!-- About End -->
+
+			<!-- Pricing Start -->
+
+			<section id="pricing" class="pricing">
+				<div class="container">
+					<div class="section__intro">
+						<h2 class="section__title">Pricing</h2>
+						<p>
+							Curabitur arcu erat, accumsan id imperdiet et,
+							porttitor at sem. Mauris blandit aliquet elit, eget
+							tincidunt.
+						</p>
+					</div>
+
+					<div class="prices grid-container">
+						<article>
+							<div>
+								<h3>Basic</h3>
+								<p>
+									<sup>$</sup>
+									<span>19</span>
+									/mo
+								</p>
+							</div>
+							<ul class="prices__list">
+								<li>Feature N0 1</li>
+								<li>Extra Feature</li>
+								<li>Feature N0 2</li>
+								<li>Feature</li>
+							</ul>
+							<a href="">Buy Now</a>
+						</article>
+						<article>
+							<div>
+								<h3>Premium</h3>
+								<p>
+									<sup>$</sup>
+									<span>29</span>
+									/mo
+								</p>
+							</div>
+							<ul class="prices__list">
+								<li>Feature N0 1</li>
+								<li>Extra Feature</li>
+								<li>Feature N0 2</li>
+								<li>Feature</li>
+							</ul>
+							<a href="">Buy Now</a>
+						</article>
+						<article>
+							<div>
+								<h3>Pro</h3>
+								<p>
+									<sup>$</sup>
+									<span>39</span>
+									/mo
+								</p>
+							</div>
+							<ul class="prices__list">
+								<li>Feature N0 1</li>
+								<li>Extra Feature</li>
+								<li>Feature N0 2</li>
+								<li>Feature</li>
+							</ul>
+							<a href="">Buy Now</a>
+						</article>
+						<article>
+							<div>
+								<h3>Platinum</h3>
+								<p>
+									<sup>$</sup>
+									<span>49</span>
+									/mo
+								</p>
+							</div>
+							<ul class="prices__list">
+								<li>Feature N0 1</li>
+								<li>Extra Feature</li>
+								<li>Feature N0 2</li>
+								<li>Feature</li>
+							</ul>
+							<a href="">Buy Now</a>
+						</article>
+					</div>
+
+					<div class="request">
+						<p>Contact us if you have special request</p>
+						<a href="">Contact Us</a>
+					</div>
+				</div>
+				<div class="subscribe grid-container">
+					<form action="" class="flex">
+						<i class="fa-regular fa-envelope"></i>
+						<input
+							type="email"
+							name="sub"
+							placeholder="Your mail"
+						/>
+						<button type="submit">Subscribe</button>
+					</form>
+
+					<p>
+						Curabitur arcu erat, accumsan id imperdiet et, porttitor
+						at sem. Mauris blan dit aliquet elit, eget tincidunt.
+					</p>
+				</div>
+			</section>
+
+			<!-- Pricing End -->
+
+			<!-- Contact Start -->
+
+			<section id="contact" class="contact">
+				<div class="container">
+					<div class="section__intro">
+						<h2 class="section__title">Contact us</h2>
+						<p>
+							Curabitur arcu erat, accumsan id imperdiet et,
+							porttitor at sem. Mauris blandit aliquet elit, eget
+							tincidunt.
+						</p>
+					</div>
+
+					<div class="contact__info grid-container">
+						<form action="" class="contact__form grid">
+							<input
+								type="text"
+								name="name"
+								placeholder="Your name"
+								required
+							/>
+							<input
+								type="email"
+								name="mail"
+								placeholder="Your mail"
+								required
+							/>
+							<textarea
+								name="message"
+								placeholder="Your message"
+								required
+							></textarea>
+							<button type="submit">Send message</button>
+						</form>
+
+						<div class="contact__address grid">
+							<div>
+								<p>Get in touch</p>
+								<address>
+									+00 123.456.789 <br />
+									+00 123.456.789
+								</address>
+							</div>
+
+							<div>
+								<p>Where we are</p>
+								<address>
+									Awesome Address 17 <br />
+									New York,NYC
+									<br />
+									123-4567-890
+									<br />
+									Usa
+								</address>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Contact End -->
+		</main>
+
+		<footer class="footer grid">
+			<div class="f-logo">
+				<img src="/assets/logo.png" alt="" class="logo" />
+			</div>
+			<p class="footer__text">We are social</p>
+			<div role="separator"></div>
+			<div class="social">
+				<a href="" class="social__link"
+					><i class="fa-brands fa-facebook-f"></i
+				></a>
+				<a href="" class="social__link"
+					><i class="fa-brands fa-twitter"></i
+				></a>
+				<a href="" class="social__link"
+					><i class="fa-brands fa-google-plus-g"></i
+				></a>
+				<a href="" class="social__link"
+					><i class="fa-brands fa-dribbble"></i
+				></a>
+			</div>
+			<p class="copyright">
+				© 2014 - <span class="copyright--light">Kasper</span> All Right
+				Reserved
+			</p>
+		</footer>
+	</body>
+</html>
